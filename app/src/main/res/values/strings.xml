@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ASJ</string>
+    <string name="canteen">Canteen</string>
+    <string name="club">Club</string>
+    <string name="gdsc">GDSC</string>
+    <string name="isets">ISETS</string>
+    <string name="ieee">IEEE</string>
+    <string name="itsa">ITSA</string>
+    <string name="git">Git</string>
+    <string name="cesa">CESA</string>
+    <string name="blog">Blog</string>
+    <string name="notice">Notice</string>
+    <string name="nav_header_desc">Navigation Header Description</string>
+    <string name="nav_header_title">Navigation Title</string>
+    <string name="nav_header_subtitle">Navigation Subtitle</string>
+    <string name="group2">Group 2</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/canteen"
+            android:icon="@drawable/canteen"
+            android:title="@string/canteen" />
+        <item android:id="@+id/club"
+            android:icon="@drawable/club"
+            android:title="@string/club"/>
+        <item android:title="@string/club">
+            <menu>
+            <item android:title="@string/gdsc" />
+            <item android:title="@string/ieee" />
+            <item android:title="@string/isets" />
+            <item android:title="@string/cesa" />
+            <item android:title="@string/git" />
+            <item android:title="@string/itsa" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/blog"
+            android:title="@string/blog"/>
+
+        <item
+            android:id="@+id/notice"
+            android:icon="@drawable/notice"
+            android:title="@string/notice"/>
+
+    </group>
+</menu>
+

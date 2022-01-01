@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noticeScreen">
+
+    <activity
+        android:id="@+id/canteen2"
+        android:name="com.example.asj.canteenScreen.Canteen"
+        android:label="activity_canteen"
+        tools:layout="@layout/activity_canteen" />
+    <activity
+        android:id="@+id/clubs"
+        android:name="com.example.asj.clubScreen.clubs"
+        android:label="activity_clubs"
+        tools:layout="@layout/activity_clubs" />
+    <activity
+        android:id="@+id/blog2"
+        android:name="com.example.asj.blogScreen.Blog"
+        android:label="activity_blog"
+        tools:layout="@layout/activity_blog" />
+    <activity
+        android:id="@+id/noticeScreen"
+        android:name="com.example.asj.noticeScreen.noticeScreen"
+        android:label="activity_notice_screen"
+        tools:layout="@layout/activity_notice_screen" />
+
+
+
+</navigation>
